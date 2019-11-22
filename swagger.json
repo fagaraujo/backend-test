@@ -1,0 +1,19 @@
+{
+    "swagger": {
+        "name": "ZSSN",
+        "description": "ZSSN (Zombie Survival Social Network)",
+        "basePath": "/",
+        "entryFile": "./src/controllers/index.ts",
+        "outputDirectory": "./dist",
+        "host": "localhost:3003",
+        "version": "1.0.0",
+        "license": "Licenca Livre",
+        "consumes": ["application/json", "application/xml"], 
+        "produces": ["application/json", "application/xml"], 
+        "securityDefinition": {
+        },
+        "ignore": [
+            "**/node_modules/**"
+        ]
+    }
+}
